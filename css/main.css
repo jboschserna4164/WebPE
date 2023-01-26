@@ -1,3 +1,18 @@
-body{
+/* . para las clases
+# para los id */
+
+
+section{
+	border: 1px solid grey; 
+	height: 300px;
+}
+.btn{
+	background: blueviolet;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.seleccion{       /* estilo para que cuando le den click al boton se quede en color azul mientras el usuario esta en esa seccion */
 	background: blue;
 }
