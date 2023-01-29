@@ -1,7 +1,5 @@
 /* . para las clases
 # para los id */
-
-
 *{
 	box-sizing: border-box;
 }
@@ -20,6 +18,12 @@ section{
 	border: 1px solid grey; 
 	height: 800px;
 }
+
+.menu{
+	padding: 10px 10px;
+	margin: 10px 0;
+}
+
 .btn{
 	background: blueviolet;
 	border: 10px;
@@ -31,6 +35,7 @@ section{
 	text-decoration: none;
 	font-size: 30px;
 }
+
 .seleccion{       /* estilo para que cuando le den click al boton se quede en color azul mientras el usuario esta en esa seccion */
 	background: blue;
 	color: white;
@@ -56,9 +61,8 @@ section{
 	background-color: black;
 	text-align: center;
 	display: table;
-	margin: 2rem auto;
-	margin-left: 20px;
-	margin-right: 20px;
+	float: left;
+	margin: 40px 30px 0 30px;
 }
 
 .txt_home{
@@ -71,18 +75,42 @@ section{
 }
 
 .div_txtcategoria{
-	text-align: right;
-	padding: 0;
-	margin: 10px 15px;
+	background-color: black;
+	text-align: center;
+	display: table;
+	margin: 40px 30px 0 30px;	
 }
 
 .txt_categoria{
+	float: right;
+    margin: 2rem 30px 0 30px;
 	text-align: center;
-	padding-left: 40px;
-	color: white;
+	background-color: white;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-.menu{
-	padding: 10px 10px;
-	margin: 10px 0;
+.div_txtreglas{
+	text-align: center;
+}
+
+.txt_regla{
+	
+}
+
+.lista{
+	color: white;
+	font-size: 30px;
+	list-style-position: inside;
+	text-align: left;
+	padding-right: 20px;
+	padding-top: 50px;
+	float: right;
+	vertical-align: text-top;
+}
+
+.imgcat{
+	width: 1000px;
+	height: 520px;
+	object-fit: cover;
 }
