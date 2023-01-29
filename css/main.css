@@ -8,7 +8,7 @@
 body{
 	/*background-color: aquamarine;*/
 	margin: 0;
-	background-image: url('https://i.pinimg.com/474x/cf/9a/e8/cf9ae8ca689a12b0f30b48098b72f106.jpg');
+	background-image: url('../img/fondo.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
