@@ -2,17 +2,87 @@
 # para los id */
 
 
+*{
+	box-sizing: border-box;
+}
+body{
+	/*background-color: aquamarine;*/
+	margin: 0;
+	background-image: url('https://i.pinimg.com/474x/cf/9a/e8/cf9ae8ca689a12b0f30b48098b72f106.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+
+}
+
 section{
 	border: 1px solid grey; 
-	height: 300px;
+	height: 800px;
 }
 .btn{
 	background: blueviolet;
-	border-radius: 5px;
+	border: 10px;
+	border-color: aqua;
+	border-radius: 3px;
 	color: white;
-	padding: 5px;
+	padding: 5px 20px;
+	margin: 10px 3px;
 	text-decoration: none;
+	font-size: 30px;
 }
 .seleccion{       /* estilo para que cuando le den click al boton se quede en color azul mientras el usuario esta en esa seccion */
 	background: blue;
+	color: white;
+}
+
+.div_tittle{
+	/*background-color: black;*/
+	padding: 5px 15px;
+	margin: 10px 15px;
+}
+
+.titulo {
+	color: aqua;
+	font-family: monospace;
+	font-style: normal;
+	font-size: 80px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.div_txthome{
+	background-color: black;
+	text-align: center;
+	display: table;
+	margin: 2rem auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.txt_home{
+	display: table-cell;	
+	margin: 0;
+	padding: 20px 3rem;
+	font-size: 30px;
+	color: white;
+	vertical-align: middle;
+}
+
+.div_txtcategoria{
+	text-align: right;
+	padding: 0;
+	margin: 10px 15px;
+}
+
+.txt_categoria{
+	text-align: center;
+	padding-left: 40px;
+	color: white;
+}
+
+.menu{
+	padding: 10px 10px;
+	margin: 10px 0;
 }
