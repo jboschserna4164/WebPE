@@ -44,7 +44,7 @@ section{
 .div_tittle{
 	/*background-color: black;*/
 	padding: 5px 15px;
-	margin: 10px 15px;
+	margin: 10px 10px;
 }
 
 .titulo {
@@ -52,65 +52,82 @@ section{
 	font-family: monospace;
 	font-style: normal;
 	font-size: 80px;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 
 }
+.home{ /*contenedor del texto e imagen*/
+	display: flex;
+	justify-content: center;
 
-.div_txthome{
-	background-color: black;
-	text-align: center;
-	display: table;
-	float: left;
-	margin: 40px 30px 0 30px;
+}
+.div_txthome{ /*contenedor del texto a la izquierda*/
+	word-wrap: break-word; /*Propiedad para que la letra no se desborde fuera del contenedor*/
+	width: 800px;  /*Tamaño del contenedor*/
+	margin: 0;  /*arriba der abajo izq*/
 }
 
-.txt_home{
-	display: table-cell;	
+.txt_home{ /*texto dentro del contenedor*/
+	display: table-cell;
+	vertical-align: middle;	
 	margin: 0;
 	padding: 20px 3rem;
 	font-size: 30px;
 	color: white;
-	vertical-align: middle;
+	
 }
 
-.div_txtcategoria{
-	background-color: black;
-	text-align: center;
-	display: table;
-	margin: 40px 30px 0 30px;	
-}
-
-.txt_categoria{
+.div_imghome{ /*contenedor de la imagen a la derecha*/
 	float: right;
-    margin: 2rem 30px 0 30px;
-	text-align: center;
-	background-color: white;
+	background-color: aqua;
+	width: 600px;  /*Tamaño del contenedor*/
+	
+}
+
+.categorias{ /*contenedor de texto e imagen*/
+	display: flex;
+	justify-content: center;
+}
+
+.div_txtcategoria{ /*contenedor del texto de categoria*/
+	word-wrap: break-word; /*Propiedad para que la letra no se desborde fuera del contenedor*/
+	width: 800px;  /*Tamaño del contenedor*/
+	margin: 0;	
+}
+
+.listacat{
 	display: table-cell;
 	vertical-align: middle;
+	padding: 20px 3rem;
+	color: white;
+	font-size: 30px;
+	list-style-position: inside;
+	text-align: left;	
+}
+
+.div_imgcategoria{ /*contenedor de la imagen de categoria*/
+	float: left;
+	width: 600px;  /*Tamaño del contenedor*/
+	margin: 0 0 0 0;  /*arriba der abajo izq*/
+}
+
+.reglas{
+	display: flex;
+	justify-content: center;
 }
 
 .div_txtreglas{
 	text-align: center;
+	word-wrap: break-word;
 }
 
-.txt_regla{
-	
-}
-
-.lista{
+.div_txtacercade{
+	display: flex;
+	justify-content: center;
 	color: white;
 	font-size: 30px;
-	list-style-position: inside;
-	text-align: left;
-	padding-right: 20px;
-	padding-top: 50px;
-	float: right;
-	vertical-align: text-top;
+	word-wrap: break-word;
+	float: center;
 }
 
-.imgcat{
-	width: 1000px;
-	height: 520px;
-	object-fit: cover;
-}
+
